@@ -47,11 +47,19 @@ Example usage:
 	a.isTheBest('monkey') // returns 'monkey is the best mostly'
 	a.isTheWorst('monkey') // returns 'monkey is the worst' - it wasn't wrapped
 
+## Tests
+
+What tests? Anyone want to write some?
+
 ## Changelog
 
 0.0.1
 
 * Initial release
+
+0.0.2
+
+* package.json updated with repository
 
 ## TODO
 

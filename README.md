@@ -65,6 +65,10 @@ What tests? Anyone want to write some?
 
 * Bug fix
 
+0.0.4
+
+
+
 ## TODO
 
 Try using `obj[methodName] = shimFn.bind(this, originalFn.bind(this))` instead of current way of passing to originalFn

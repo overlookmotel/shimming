@@ -65,9 +65,6 @@ What tests? Anyone want to write some?
 
 * Bug fix
 
-0.0.4
-
-
 
 ## TODO
 

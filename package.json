@@ -6,8 +6,6 @@
   "author": {
     "name": "Overlook Motel"
   },
-  "dependencies": {
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/overlookmotel/shimming.git"
@@ -15,12 +13,25 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/shimming/issues"
   },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "2.0.x",
+    "chai": "1.9.x",
+	"jshint": "2.5.x"
+  },
   "keywords": [
     "shim",
     "function",
     "monkey",
     "patch"
   ],
+  "scripts": {
+    "test": "make test"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
   "readmeFilename": "README.md",
   "licenses": [
     {

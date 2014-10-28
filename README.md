@@ -68,7 +68,7 @@ See changelog.md
 
 ## TODO
 
-Try using `obj[methodName] = shimFn.bind(this, originalFn.bind(this))` instead of current way of passing to originalFn
+* Try using `obj[methodName] = shimFn.bind(this, originalFn.bind(this))` instead of current way of passing to originalFn
 
 ## Issues
 

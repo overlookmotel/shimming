@@ -8,8 +8,8 @@ Shims or "monkey patches" a function or collection of functions.
 
 Methods:
 
-* shimOne - wraps the named method of an object in a wrapper function
-* shim - wraps various methods in wrapper functions
+* `shimOne()` - wraps the named method of an object in a wrapper function
+* `shim()` - wraps various methods in wrapper functions
 
 ## Current status
 

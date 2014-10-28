@@ -15,6 +15,12 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/shimming/issues"
   },
+  "keywords": [
+    "shim",
+    "function",
+    "monkey",
+    "patch"
+  ],
   "readmeFilename": "README.md",
   "licenses": [
     {

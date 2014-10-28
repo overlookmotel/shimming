@@ -11,3 +11,10 @@
 0.0.3
 
 * Bug fix
+
+0.0.4
+
+* Tests framework
+* JSHint as part of tests
+* Travis integration
+* README update

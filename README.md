@@ -1,13 +1,23 @@
 # shimming.js
 
-A very small library of functions to shim other libraries
+# A very small library of functions to shim other libraries
+
+## What it does
+
+Shims or "monkey patches" a function or collection of functions.
 
 Methods:
 
 * shimOne - wraps the named method of an object in a wrapper function
 * shim - wraps various methods in wrapper functions
 
+## Current status
+
+[![Build Status](https://secure.travis-ci.org/overlookmotel/shimming.png)](http://travis-ci.org/overlookmotel/shimming)
+[![Dependency Status](https://david-dm.org/overlookmotel/shimming.png)](https://david-dm.org/overlookmotel/shimming)
+
 API is stable.
+No tests but it's so simple that's not a big problem - it works!
 
 ## Usage
 
@@ -49,7 +59,8 @@ Example usage:
 
 ## Tests
 
-What tests? Anyone want to write some?
+Use `npm test` to run the tests.
+Except there aren't any at present! Anyone want to write some?
 
 ## Changelog
 
@@ -58,3 +69,7 @@ See changelog.md
 ## TODO
 
 Try using `obj[methodName] = shimFn.bind(this, originalFn.bind(this))` instead of current way of passing to originalFn
+
+## Issues
+
+If you discover a bug, please raise an issue on Github. https://github.com/overlookmotel/shimming/issues

@@ -18,3 +18,7 @@
 * JSHint as part of tests
 * Travis integration
 * README update
+
+0.0.5
+
+* README update

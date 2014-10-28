@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/overlookmotel/shimming/issues"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/overlookmotel/shimming/raw/master/License"
+    }
+  ]
 }

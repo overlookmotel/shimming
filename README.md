@@ -13,7 +13,7 @@ Methods:
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/shimming.png)](http://travis-ci.org/overlookmotel/shimming)
+[![Build Status](https://secure.travis-ci.org/overlookmotel/shimming.png?branch=master)](http://travis-ci.org/overlookmotel/shimming)
 [![Dependency Status](https://david-dm.org/overlookmotel/shimming.png)](https://david-dm.org/overlookmotel/shimming)
 
 API is stable.

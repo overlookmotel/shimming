@@ -1,28 +1,28 @@
 # Changelog
 
-0.0.1
+## 0.0.1
 
 * Initial release
 
-0.0.2
+## 0.0.2
 
 * package.json updated with repository
 
-0.0.3
+## 0.0.3
 
 * Bug fix
 
-0.0.4
+## 0.0.4
 
 * Tests framework
 * JSHint as part of tests
 * Travis integration
 * README update
 
-0.0.5
+## 0.0.5
 
 * README update
 
-Next
+## Next
 
 * Added `editorconfig` file

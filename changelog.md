@@ -23,6 +23,6 @@
 
 * README update
 
-## Next
+## 0.0.6
 
 * Added `editorconfig` file

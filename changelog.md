@@ -26,3 +26,7 @@
 ## 0.0.6
 
 * Added `editorconfig` file
+
+## Next
+
+* Disable Travis dependency cache

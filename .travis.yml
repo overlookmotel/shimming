@@ -11,6 +11,3 @@ branches:
     - master
     - dev
 
-cache:
-  directories:
-    - node_modules

@@ -13,8 +13,10 @@ Methods:
 
 ## Current status
 
-[![Build Status](https://secure.travis-ci.org/overlookmotel/shimming.png?branch=master)](http://travis-ci.org/overlookmotel/shimming)
-[![Dependency Status](https://david-dm.org/overlookmotel/shimming.png)](https://david-dm.org/overlookmotel/shimming)
+[![NPM version](https://img.shields.io/npm/v/shimming.svg)](https://www.npmjs.com/package/shimming)
+[![Build Status](https://img.shields.io/travis/overlookmotel/shimming/master.svg)](http://travis-ci.org/overlookmotel/shimming)
+[![Dependency Status](https://img.shields.io/david/overlookmotel/shimming.svg)](https://david-dm.org/overlookmotel/shimming)
+[![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/shimming.svg)](https://david-dm.org/overlookmotel/shimming)
 
 API is stable.
 No tests but it's so simple that's not a big problem - it works!

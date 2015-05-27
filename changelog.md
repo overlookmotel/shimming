@@ -38,3 +38,7 @@
 * Travis runs on new container infrastructure
 * README code examples tagged as Javascript
 * Update README badges to use shields.io
+
+## Next
+
+* README contribution section

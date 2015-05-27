@@ -1,6 +1,6 @@
 {
   "name": "shimming",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Functions to shim other libraries",
   "main": "./lib/",
   "author": {

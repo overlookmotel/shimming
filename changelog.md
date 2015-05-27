@@ -39,6 +39,6 @@
 * README code examples tagged as Javascript
 * Update README badges to use shields.io
 
-## Next
+## 0.0.8
 
 * README contribution section

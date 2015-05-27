@@ -30,6 +30,7 @@
 ## Next
 
 * Remove all trailing whitespace
+* Update dev dependencies
 * Test code coverage & Travis sends to coveralls
 * Run jshint on tests
 * Disable Travis dependency cache

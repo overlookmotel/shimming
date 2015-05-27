@@ -27,7 +27,7 @@
 
 * Added `editorconfig` file
 
-## Next
+## 0.0.7
 
 * Remove all trailing whitespace
 * Update dev dependencies

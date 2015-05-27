@@ -31,9 +31,11 @@ originalMethod is bound to 'this' in the context of the function call. i.e. orig
 
 Example usage:
 
-	var a = { isTheBest: function(x) { return x + ' is the best'; } };
-    shimming.shimOne(a, 'isTheBest', function(originalFn, x) { return originalFn(x) + ' mostly'; });
-	a.isTheBest('monkey') // returns 'monkey is the best mostly'
+```js
+var a = { isTheBest: function(x) { return x + ' is the best'; } };
+shimming.shimOne(a, 'isTheBest', function(originalFn, x) { return originalFn(x) + ' mostly'; });
+a.isTheBest('monkey') // returns 'monkey is the best mostly'
+```
 
 ### shimming.shim(obj, shimFns)
 
@@ -41,23 +43,25 @@ Replaces object methods with the wrapper methods provided.
 
 Example usage:
 
-	var a = {
-		status: 'drunk',
-		isStatus: function(x) { return x + ' is ' + this.status; },
-		isTheBest: function(x) { return x + ' is the best'; },
-		isTheWorst: function(x) { return x + ' is the worst'; }
-	};
-	
-	var wrapper = function(originalFn, x) { return originalFn(x) + ' mostly'; };
-	
-    shimming.shim(a, {
-		isStatus: wrapper,
-		isTheBest: wrapper,
-	});
-	
-	a.isStatus('monkey') // returns 'monkey is drunk mostly'
-	a.isTheBest('monkey') // returns 'monkey is the best mostly'
-	a.isTheWorst('monkey') // returns 'monkey is the worst' - it wasn't wrapped
+```js
+var a = {
+	status: 'drunk',
+	isStatus: function(x) { return x + ' is ' + this.status; },
+	isTheBest: function(x) { return x + ' is the best'; },
+	isTheWorst: function(x) { return x + ' is the worst'; }
+};
+
+var wrapper = function(originalFn, x) { return originalFn(x) + ' mostly'; };
+
+shimming.shim(a, {
+	isStatus: wrapper,
+	isTheBest: wrapper,
+});
+
+a.isStatus('monkey') // returns 'monkey is drunk mostly'
+a.isTheBest('monkey') // returns 'monkey is the best mostly'
+a.isTheWorst('monkey') // returns 'monkey is the worst' - it wasn't wrapped
+```
 
 ## Tests
 

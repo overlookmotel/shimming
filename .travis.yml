@@ -11,3 +11,4 @@ branches:
     - master
     - dev
 
+sudo: false

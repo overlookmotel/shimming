@@ -30,3 +30,4 @@
 ## Next
 
 * Disable Travis dependency cache
+* Travis runs on new container infrastructure

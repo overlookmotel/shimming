@@ -29,6 +29,7 @@
 
 ## Next
 
+* Remove all trailing whitespace
 * Run jshint on tests
 * Disable Travis dependency cache
 * Travis runs on new container infrastructure

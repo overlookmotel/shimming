@@ -17,6 +17,7 @@ Methods:
 [![Build Status](https://img.shields.io/travis/overlookmotel/shimming/master.svg)](http://travis-ci.org/overlookmotel/shimming)
 [![Dependency Status](https://img.shields.io/david/overlookmotel/shimming.svg)](https://david-dm.org/overlookmotel/shimming)
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/shimming.svg)](https://david-dm.org/overlookmotel/shimming)
+[![Coverage Status](https://img.shields.io/coveralls/overlookmotel/shimming/master.svg)](https://coveralls.io/r/overlookmotel/shimming)
 
 API is stable.
 No tests but it's so simple that's not a big problem - it works!
@@ -65,7 +66,8 @@ a.isTheWorst('monkey') // returns 'monkey is the worst' - it wasn't wrapped
 
 ## Tests
 
-Use `npm test` to run the tests.
+Use `npm test` to run the tests. Use `npm run cover` to check coverage.
+
 Except there aren't any at present! Anyone want to write some?
 
 ## Changelog

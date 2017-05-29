@@ -1,5 +1,7 @@
 # shimming.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/shimming.svg)](https://greenkeeper.io/)
+
 # A very small library of functions to shim other libraries
 
 ## What it does
